@@ -240,9 +240,54 @@ text-align: center;
 .container-brands h1{
   color: #242565;
 }
-.container-brands p{
+.blog-section {
+    padding: 50px;
+    background-color: white;
+    text-align: center;
+}
 
-  }
+.blog-header h2 {
+    font-size: 36px;
+    color: #242565;
+    margin-bottom: 10px;
+}
+
+.blog-header p {
+    font-size: 16px;
+    color: #6c757d;
+    margin-bottom: 40px;
+}
+
+.blog-posts {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.blog-card {
+    width: 300px;
+    text-align: left;
+}
+
+.blog-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+    border-radius: 20px;
+}
+
+.blog-card h3 {
+    font-size: 18px;
+    color: #242565;
+    padding: 15px;
+}
+
+.blog-card p {
+    font-size: 14px;
+    color: #6c757d;
+    padding: 0 15px 15px;
+}
 
   .footer {
     background-color: #1a1a4b;
@@ -312,29 +357,38 @@ text-align: center;
     height: 24px;
 }
 
-form {
+.sub-container{
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
-
-form input {
-    padding: 10px;
-    margin-bottom: 10px;
+.email-input{
     border: none;
-    border-radius: 5px;
+    padding: 10px 15px;
+    border-radius: 50px 0 0 50px;
+    outline: none;
+    width: 300px;
+    font-size: 16px;
 }
-
-form button {
-    padding: 10px;
-    background-color: #ff007a;
-    color: #fff;
+.email-input::placeholder{
+    color: #bbb;
+}
+.sub-btn{
+    background-color: #ff2da6;
+    color: white;
     border: none;
-    border-radius: 5px;
+    padding: 10px 15px;
+    border-radius: 80px;
     cursor: pointer;
+    font-size: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
 }
-
-form button:hover {
-    background-color: #e6006f;
+.sub-btn:hover{
+    background-color: #ff157e;
 }
 
 .footer-bottom {
@@ -343,4 +397,10 @@ form button:hover {
     border-top: 1px solid #333;
     padding-top: 20px;
 }
-
+.reso-logo{
+    display: flex;
+justify-content: center;
+gap: 60px;
+margin-bottom: 50px;
+margin-top: 50px;
+}
