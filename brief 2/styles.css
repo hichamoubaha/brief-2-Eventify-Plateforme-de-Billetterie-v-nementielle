@@ -1,7 +1,9 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
     background-color: white;
+    font-family: "Doppio One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .home-h{
@@ -483,7 +485,7 @@ color: white;
       border: none;
       padding: 10px 20px;
   }
-  .who-we-are{
+  #who-we-are{
     text-align: center;
     font-weight: bold;
     font-size: 40px;
