@@ -314,8 +314,9 @@ text-align: center;
 }
 
 .footer-logo {
-    font-size: 24px;
-    font-weight: bold;
+    width: 50%;
+    margin-right: 60%;
+
 }
 
 .footer-column h3 {
