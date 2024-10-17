@@ -560,3 +560,34 @@ color: white;
     line-height: 1.5;
     font-weight: bold;
 }
+.our-clients{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+.clients-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+    max-width: 1000px;
+    width: 100%;
+    padding: 20px 50px;
+    margin: auto 70px;
+}
+
+.clients {
+    padding: 10px 30px;
+    text-align: center;
+    margin: auto auto;
+}
+.clients img{
+    border-radius: 10px;
+    max-width: 90%;
+    height: 80%;
+}
+.clients p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #333;
+    font-weight: bold;
+}
