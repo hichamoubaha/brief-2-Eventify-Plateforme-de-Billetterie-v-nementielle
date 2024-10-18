@@ -59,7 +59,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
+    padding: 60px;
     color: white;
 }
 
@@ -103,19 +103,15 @@ nav {
     height: auto;
 }
 
-.search {
+#search {
     display: flex;
     justify-content: center;
     background-color: #242565;
-    padding: 20px;
+    padding: 30px;
     color: white;
-    border-radius: 10px;
+    border-radius: 20px;
     margin-right: 15%;
     margin-left: 15%;
-    padding-left: 10%;
-    padding-right: 10%;
-    
-
 }
 
 .search-box {
@@ -129,11 +125,10 @@ font-size: 13px;
 }
 
 .search-box input {
-    padding: 10px;
+    padding: 10px 20px;
     border: none;
     background-color: #242565;
     border-bottom: 1px solid white;
-    
 }
 .search-box ::placeholder{
     color: #FFFFFF;
@@ -416,7 +411,7 @@ margin-top: 50px;
 }
 .speakers-content{
     text-align: center;
-    margin-bottom: 15%;
+    margin-bottom: 20%;
 }
 .speakers-content h1{
 font-size: 100px;
