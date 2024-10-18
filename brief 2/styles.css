@@ -125,6 +125,7 @@ nav {
 .search-box label {
     display: block;
 margin-bottom: 10px;
+font-size: 13px;
 }
 
 .search-box input {
@@ -137,6 +138,7 @@ margin-bottom: 10px;
 .search-box ::placeholder{
     color: #FFFFFF;
     font-weight: bold;
+    font-size: 16px;
 }
 .events-container {
     display: flex;
@@ -378,8 +380,8 @@ text-align: center;
     padding: 10px 15px;
     border-radius: 50px 0 0 50px;
     outline: none;
-    width: 300px;
-    font-size: 16px;
+    width: 100%;
+    font-size: 12px;
 }
 .email-input::placeholder{
     color: #bbb;
@@ -388,7 +390,7 @@ text-align: center;
     background-color: #ff2da6;
     color: white;
     border: none;
-    padding: 10px 15px;
+    padding: 10px 30px;
     border-radius: 80px;
     cursor: pointer;
     font-size: 10px;
