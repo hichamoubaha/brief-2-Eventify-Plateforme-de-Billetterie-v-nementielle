@@ -130,8 +130,13 @@ margin-bottom: 10px;
 .search-box input {
     padding: 10px;
     border: none;
-    border-radius: 5px;
+    background-color: #242565;
+    border-bottom: 1px solid white;
     
+}
+.search-box ::placeholder{
+    color: #FFFFFF;
+    font-weight: bold;
 }
 .events-container {
     display: flex;
