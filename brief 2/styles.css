@@ -470,6 +470,9 @@ color: white;
     max-width: 90%;
     height: 60%;
 }
+.speaker img:hover{
+    
+}
 
 .speaker p {
     font-size: 15px;
